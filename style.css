@@ -127,6 +127,7 @@ header {
     .main-menu {
         padding: 0px;
         flex-direction: column;
+        justify-content: center;
     }
 
     .menu-logo {
@@ -179,6 +180,7 @@ header {
 
 @media only screen and (min-width:576px) and (max-width:768px) {
     .main-menu {
+        justify-content: center;
         padding: 40px;
     }
 
