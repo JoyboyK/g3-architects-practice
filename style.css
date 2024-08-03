@@ -1,0 +1,164 @@
+/* Body Style */
+
+* {
+    max-width: 100%;
+    font-family: "Work Sans", sans-serif;
+    margin: 0px;
+}
+
+/* Header Style */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 180px 80px 180px;
+}
+
+.menu-logo {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.menu {
+    font-size: 1em;
+    font-weight: 500;
+
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.hero-text {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.hero-des {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #FF900E;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.hero-img {
+    padding: 30px 180px 30px 180px;
+}
+
+.hero-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Mobile style */
+@media only screen and (max-width: 576px) {
+    .main-menu {
+        padding: 0px;
+        flex-direction: column;
+    }
+
+    .menu-logo {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .menu li {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+    }
+
+    .hero-des {
+        font-size: .8rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .btn-primary {
+        width: 100px;
+        height: 40px;
+        font-size: .8rem;
+    }
+
+    .hero-img {
+        padding: 5px 30px 5px 30px;
+
+    }
+}
+
+/* Tablet style */
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .main-menu {
+        padding: 40px;
+    }
+
+    .menu-logo {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .menu li {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .hero-text {
+        font-size: 2.5rem;
+    }
+
+    .hero-des {
+        font-size: 1rem;
+        font-weight: 400;
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .btn-primary {
+        width: 130px;
+        height: 45px;
+        font-size: .8rem;
+    }
+
+    .hero-img {
+        padding: 10px 60px 10px 60px;
+    }
+}
